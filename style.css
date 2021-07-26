@@ -1,0 +1,39 @@
+body{
+    background-color: pink;
+}
+
+
+#youtube{
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 171px;
+    top: 0px;
+    /*inside auto layout*/
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 25px;
+}
+
+#github{
+
+}
+
+#facebook{
+
+}
+
+#ig{
+
+}
+
+.icon{
+    margin: auto;
+    height: 32px;
+    width: 32px;
+}
+
+#logo{
+    height: 32px;
+}
