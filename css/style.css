@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: pink ;
 }
 
 
@@ -15,7 +15,7 @@ body{
     flex-grow: 0;
     margin: 0px 25px;
 }
-
+/*
 #github{
 
 }
@@ -27,7 +27,7 @@ body{
 #ig{
 
 }
-
+*/
 .icon{
     margin: auto;
     height: 32px;
