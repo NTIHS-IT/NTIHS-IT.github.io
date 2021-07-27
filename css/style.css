@@ -1,7 +1,14 @@
 body{
-    background-color: pink ;
+    background-color: #3E3D49 ;
 }
 
+header{
+    width: 100%;
+    height: 48px;
+    background-color: #1E1F25;
+    text-align: left;
+    font-size: 32px;
+}
 
 #youtube{
     position: static;
@@ -32,8 +39,29 @@ body{
     margin: auto;
     height: 32px;
     width: 32px;
+    float: center;
 }
 
 #logo{
+    height: 256px;
+    width: auto;
+    float: center;
+}
+
+#underlogo{
     height: 32px;
+    width: auto;
+    float: center;
+}
+
+#group{
+    height: 500px;
+    width: 256px;
+    float: center;
+}
+
+.container{
+    width: 1024px;
+    margin: 0;
+    float: center;
 }
