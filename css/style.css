@@ -35,6 +35,12 @@ header{
 
 }
 */
+
+.logo{
+    display: inline;
+    float: left;
+}
+
 .icon{
     margin: auto;
     height: 32px;
