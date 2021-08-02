@@ -1,5 +1,6 @@
 body{
     background-color: #3E3D49 ;
+    display: grid;
 }
 
 header{
@@ -8,6 +9,12 @@ header{
     background-color: #1E1F25;
     text-align: left;
     font-size: 32px;
+}
+
+section{
+    width: 1024px;
+    height: auto;
+    display: grid;
 }
 
 #youtube{
@@ -68,7 +75,7 @@ header{
     grid-template-rows: 4fr;
     grid-template-columns: 4fr;
     border-color: aqua;
-    border: 3px;
+    border-width: 3px;
 }
 
 .container{

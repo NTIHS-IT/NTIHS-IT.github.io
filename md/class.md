@@ -30,8 +30,8 @@ github desktop 和 [github網站](https://github.com)
 
 
 
-| day 1  | day 2 | day 3 | day 4 | day 5 |
-| :---:  | :---: | :---: | :---: | :---: |
-|Termianl| git   |       |       |       |
-
+| 日期  | day 1  | day 2 | day 3 | day 4 | day 5 |
+| :---: | :---:  | :---: | :---: | :---: | :---: |
+|課程內容|Termianl| git   |       |       |       |
+|  講者  | Young | Young | 
 
