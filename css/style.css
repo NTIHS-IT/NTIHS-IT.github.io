@@ -60,10 +60,15 @@ header{
     float: center;
 }
 
-#group{
+#centerGroup{
     height: 500px;
     width: 256px;
     float: center;
+    display: grid;
+    grid-template-rows: 4fr;
+    grid-template-columns: 4fr;
+    border-color: aqua;
+    border: 3px;
 }
 
 .container{
