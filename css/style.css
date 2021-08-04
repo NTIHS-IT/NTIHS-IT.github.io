@@ -1,6 +1,12 @@
 body{
     background-color: #3E3D49 ;
+    margin: 0;
     display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ""
+    "";
 }
 
 header{
@@ -17,32 +23,6 @@ section{
     display: grid;
 }
 
-#youtube{
-    position: static;
-    width: 32px;
-    height: 32px;
-    left: 171px;
-    top: 0px;
-    /*inside auto layout*/
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    margin: 0px 25px;
-}
-/*
-#github{
-
-}
-
-#facebook{
-
-}
-
-#ig{
-
-}
-*/
-
 .logo{
     display: inline;
     float: left;
@@ -53,6 +33,16 @@ section{
     height: 32px;
     width: 32px;
     float: center;
+    color: white;
+}
+
+#logoAndText{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: 
+    "logoAndText logoAndText logoAndText logoAndText"
+    "fb ig yt github";
 }
 
 #logo{
@@ -61,7 +51,7 @@ section{
     float: center;
 }
 
-#underlogo{
+#logoText{
     height: 32px;
     width: auto;
     float: center;
@@ -69,13 +59,15 @@ section{
 
 #centerGroup{
     height: 500px;
-    width: 256px;
+    width: 284px;
     float: center;
     display: grid;
-    grid-template-rows: 4fr;
-    grid-template-columns: 4fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border-color: aqua;
     border-width: 3px;
+    padding: 5px;
+    border-style: solid;
 }
 
 .container{
@@ -83,3 +75,65 @@ section{
     margin: 0;
     float: center;
 }
+
+/*
+
+#youtube{
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 171px;
+    top: 0px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 25px;
+}
+
+#github{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 114px;
+    top: 0px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 25px;
+}
+
+
+#facebook{
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 57px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 25px;
+}
+
+#ig{
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 25px;
+}
+
+*/
