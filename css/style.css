@@ -5,7 +5,7 @@ body{
 
 header{
     width: 100%;
-    height: 48px;
+    height: 60px;
     background-color: #1E1F25;
     text-align: left;
     font-size: 32px;
@@ -23,10 +23,54 @@ section{
 
 .navIcon{
     margin: 0;
-    padding: 2px;
-    height: 32px;
-    width: 32px;
+    padding: 4px;
+    height: 62px;
+    width: 62px;
     float: left;
+}
+
+#logoText{
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 12px;
+    margin-top: 0;
+}
+
+.container{
+    width: 1024px;
+    height: 48px;
+    margin: 0;
+    display: inline;
+    float: left;
+    padding: 0;
+    border-color: red;
+    border-width: 3px;
+    padding: 5px;
+    border-style: solid;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navButton{
+    font-style: "Times New Roman";/*ponnala*/
+}
+
+/*狀態列以下*/
+
+#centerGroup{
+    height: 500px;
+    width: 284px;
+    float: center;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    border-color: aqua;
+    border-width: 3px;
+    padding: 5px;
+    border-style: solid;
 }
 
 #icons{
@@ -56,100 +100,6 @@ section{
     width: auto;
 }
 
-#logoText{
-    font-size: 28px;
-    color: #FFFFFF;
-    margin: 12px;
-    margin-top: 0;
+#nothing{
+    height: 240px;
 }
-
-#centerGroup{
-    height: 500px;
-    width: 284px;
-    float: center;
-    display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    border-color: aqua;
-    border-width: 3px;
-    padding: 5px;
-    border-style: solid;
-}
-
-.container{
-    width: 1024px;
-    height: 48px;
-    margin: 0;
-    display: inline;
-    float: left;
-    padding: 0;
-    border-color: red;
-    border-width: 3px;
-    padding: 5px;
-    border-style: solid;
-}
-.navButton{
-    font-style: "Times New Roman";
-}
-/*ponnala*/
-/*
-
-#youtube{
-    position: static;
-    width: 32px;
-    height: 32px;
-    left: 171px;
-    top: 0px;
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    margin: 0px 25px;
-}
-
-#github{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 32px;
-    height: 32px;
-    left: 114px;
-    top: 0px;
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 0px 25px;
-}
-
-
-#facebook{
-    position: static;
-    width: 32px;
-    height: 32px;
-    left: 57px;
-    top: 0px;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 25px;
-}
-
-#ig{
-    position: static;
-    width: 32px;
-    height: 32px;
-    left: 0px;
-    top: 0px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 25px;
-}
-
-*/
