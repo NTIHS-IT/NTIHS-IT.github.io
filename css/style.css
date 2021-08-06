@@ -12,9 +12,8 @@ header{
 }
 
 section{
-    width: 1024px;
+    width: 100%;
     height: auto;
-    display: grid;
 }
 
 .logo{
@@ -22,17 +21,34 @@ section{
     float: left;
 }
 
-.icon{
-    margin: auto;
+.navIcon{
+    margin: 0;
+    padding: 2px;
     height: 32px;
     width: 32px;
+    float: left;
+}
+
+#icons{
+    padding: 6px
+}
+
+.icon{
+    margin: auto;
+    height: 48px;
+    width: 48px;
     float: center;
     color: white;
+    padding: 8px;
+}
+
+.menu{
+    display: inline;
 }
 
 #logoAndText{
     float: center;
-    height: 500px;
+    height: auto;
 }
 
 #logo{
@@ -53,7 +69,7 @@ section{
     float: center;
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     border-color: aqua;
     border-width: 3px;
     padding: 5px;
@@ -72,7 +88,10 @@ section{
     padding: 5px;
     border-style: solid;
 }
-
+.navButton{
+    font-style: "Times New Roman";
+}
+/*ponnala*/
 /*
 
 #youtube{
