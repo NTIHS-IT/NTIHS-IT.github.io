@@ -74,7 +74,8 @@ nav a {
 }
 
 #icons{
-    padding: 6px
+    padding: 6px;
+    display: inline-block;
 }
 
 .icon{
