@@ -82,6 +82,12 @@ nav a {
     display: inline-block;
 }
 
+#icons a {
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+}
+
 .icon{
     margin: auto;
     height: 48px;
@@ -106,9 +112,13 @@ nav a {
 }
 
 .menu li a {
-    margin: auto
+    margin: auto;
+    text-decoration: none;
 }
-
+.menu li a:link, .menu li a:hover, .menu li a:visited, .menu li a:active {
+    color: #ffff;
+    
+}
 #logoAndText{
     float: center;
     height: auto;
