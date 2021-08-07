@@ -1,14 +1,17 @@
-body{
+body, html{
     background-color: #3E3D49 ;
     margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
 }
 
-header{
+.navbar {
     width: 100%;
     height: 60px;
     background-color: #1E1F25;
     text-align: left;
-    font-size: 32px;
+    margin: 0;
 }
 
 section{
@@ -17,15 +20,20 @@ section{
 }
 
 .logo{
-    display: inline;
+    position: relative;
     float: left;
+    width: 200px;
+    margin-left: 40px;
+    height: 60px;
+    color: #ffff;
+    font-size: 36px;
 }
 
 .navIcon{
     margin: 0;
     padding: 4px;
-    height: 62px;
-    width: 62px;
+    height: 36px;
+    width: 36px;
     float: left;
 }
 
@@ -37,7 +45,7 @@ section{
 }
 
 .container{
-    width: 1024px;
+    width: 100%;
     height: 48px;
     margin: 0;
     display: inline;
@@ -61,16 +69,12 @@ nav a {
 /*狀態列以下*/
 
 #centerGroup{
-    height: 500px;
-    width: 284px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     float: center;
-    display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    border-color: aqua;
-    border-width: 3px;
     padding: 5px;
-    border-style: solid;
 }
 
 #icons{
@@ -87,8 +91,22 @@ nav a {
     padding: 8px;
 }
 
-.menu{
-    display: inline;
+.menu {
+    margin: 0;
+    height: 60px;
+    padding: 0;
+    display: flex;
+}
+
+.menu li{
+    display: flex;
+    color: #ffff;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.menu li a {
+    margin: auto
 }
 
 #logoAndText{
@@ -97,10 +115,26 @@ nav a {
 }
 
 #logo{
+    display: block;
     height: 256px;
-    width: auto;
+    margin: 0 auto;
 }
 
 #nothing{
     height: 240px;
+}
+
+
+#logo-text {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translate(0, -50%);
+}
+
+.logo svg {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
