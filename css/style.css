@@ -75,6 +75,7 @@ nav a {
     transform: translate(-50%, -50%);
     float: center;
     padding: 5px;
+    width: 306px;
 }
 
 #icons{
