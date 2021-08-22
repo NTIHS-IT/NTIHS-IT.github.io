@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+/* var */
+$navbarHeight: 60px;
+
 body,
 html {
     background-color: #3e3d49;
@@ -40,19 +44,23 @@ html {
     /* menu */
     .menu {
         margin: 0;
-        height: 60px;
+        height: $navbarHeight;
         padding: 0;
         display: flex;
         li {
+            cursor: pointer;
             display: flex;
             color: #ffff;
             align-items: center;
             margin: 0 20px;
+            &:hover {
+                opacity: 0.7;
+            }
             a,
             .navButton {
                 margin: auto;
                 text-decoration: none;
-                font-family: "Times New Roman", sans-serif; /*ponnala*/
+                font-family: "Times New Roman", sans-serif; // ponnala
                 &:link,
                 &:hover,
                 &:visited,
@@ -60,9 +68,62 @@ html {
                     color: #ffff;
                 }
             }
-            &:hover {
-                opacity: 0.7 !important;
+        }
+    }
+    /* 手機板 */
+    @media all and (max-width: 700px) {
+        /* -> menu */
+        .menu {
+            width: 40%;
+            position: fixed;
+            top: $navbarHeight;
+            right: 0;
+            flex-direction: column;
+            display: flex;
+            z-index: 9;
+            .show-btn {
+                cursor: pointer;
+                position: fixed;
+                top: ($navbarHeight / 2) - (16px / 2);
+                right: 4%;
+                background-color: white;
+                width: 16px;
+                height: 16px;
+                &:hover {
+                    opacity: 0.8;
+                }
             }
+            li {
+                display: none;
+            }
+            &.show {
+                align-items: center;
+                height: 100%;
+                background-color: #626262;
+                li {
+                    display: block;
+                    padding: 1.2em 0;
+                    width: 100%;
+                    text-align: center;
+                    border: solid 2px white;
+                }
+                .blurry {
+                    width: 100vw;
+                    height: 100vh;
+                    position: fixed;
+                    display: block;
+                    opacity: 0.3;
+                    z-index: -1;
+                    background: #000;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+    @media all and (max-width: 400px) {
+        .menu {
+            width: 60%;
         }
     }
 }
@@ -72,7 +133,7 @@ section {
     height: auto;
 }
 
-/*狀態列以下*/
+/* 狀態列以下 */
 #centerGroup {
     position: absolute;
     left: 50%;
