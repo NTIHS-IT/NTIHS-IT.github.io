@@ -47,6 +47,7 @@ html {
         height: $navbarHeight;
         padding: 0;
         display: flex;
+        right: -100%;
         li {
             cursor: pointer;
             display: flex;
@@ -122,14 +123,13 @@ html {
                     top: 0;
                     left: 0;
                 }
+                @media all and (max-width: 400px) {
+                    width: 60%;
+                }
             }
         }
     }
-    @media all and (max-width: 400px) {
-        .menu {
-            width: 60%;
-        }
-    }
+
 }
 
 section {

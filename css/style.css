@@ -1,8 +1,7 @@
 @charset "UTF-8";
-
 /* var */
-body,
-html {
+
+body, html {
   background-color: #3e3d49;
   margin: 0;
   width: 100%;
@@ -11,6 +10,7 @@ html {
 }
 
 /* 導覽欄 */
+
 .navbar {
   width: 100%;
   height: 60px;
@@ -18,6 +18,8 @@ html {
   text-align: left;
   margin: 0;
   /* logo */
+  /* menu */
+  /* 手機板 */
 }
 
 .navbar .logo {
@@ -42,7 +44,6 @@ html {
   top: 50%;
   left: 50px;
   transform: translate(0, -50%);
-  /* menu */
 }
 
 .navbar .menu {
@@ -50,6 +51,7 @@ html {
   height: 60px;
   padding: 0;
   display: flex;
+  right: -100%;
 }
 
 .navbar .menu li {
@@ -64,30 +66,20 @@ html {
   opacity: 0.7;
 }
 
-.navbar .menu li a,
-.navbar .menu li .navButton {
+.navbar .menu li a, .navbar .menu li .navButton {
   margin: auto;
   text-decoration: none;
   font-family: "Times New Roman", sans-serif;
 }
 
-.navbar .menu li a:link,
-.navbar .menu li .navButton:link,
-.navbar .menu li a:hover,
-.navbar .menu li .navButton:hover,
-.navbar .menu li a:visited,
-.navbar .menu li .navButton:visited,
-.navbar .menu li a:active,
-.navbar .menu li .navButton:active {
+.navbar .menu li a:link, .navbar .menu li a:hover, .navbar .menu li a:visited, .navbar .menu li a:active, .navbar .menu li .navButton:link, .navbar .menu li .navButton:hover, .navbar .menu li .navButton:visited, .navbar .menu li .navButton:active {
   color: #ffff;
-  /* 手機板 */
 }
 
-@media (max-width: 700px) {
+@media all and (max-width: 700px) {
   .navbar {
     /* -> menu */
   }
-
   .navbar .menu {
     transition: 0.5s ease;
     position: fixed;
@@ -99,7 +91,6 @@ html {
     width: 0;
     height: 100%;
   }
-
   .navbar .menu .show-btn {
     cursor: pointer;
     position: fixed;
@@ -109,22 +100,18 @@ html {
     width: 16px;
     height: 16px;
   }
-
   .navbar .menu .show-btn:hover {
     opacity: 0.8;
   }
-
   .navbar .menu li {
     display: none;
   }
-
   .navbar .menu.show {
     width: 40%;
     align-items: center;
     height: 100%;
     background-color: #626262;
   }
-
   .navbar .menu.show li {
     display: block;
     padding: 1.2em 0;
@@ -133,7 +120,6 @@ html {
     border: solid 2px white;
     white-space: nowrap;
   }
-
   .navbar .menu.show .blurry {
     width: 100vw;
     height: 100vh;
@@ -147,8 +133,8 @@ html {
   }
 }
 
-@media (max-width: 400px) {
-  .navbar .menu {
+@media all and (max-width: 700px) and (max-width: 400px) {
+  .navbar .menu.show {
     width: 60%;
   }
 }
@@ -159,6 +145,7 @@ section {
 }
 
 /* 狀態列以下 */
+
 #centerGroup {
   position: absolute;
   left: 50%;
