@@ -92,7 +92,6 @@ html {
     /* -> menu */
   }
   .navbar .menu {
-    width: 40%;
     position: fixed;
     top: 60px;
     right: 0;
@@ -104,6 +103,8 @@ html {
     display: -ms-flexbox;
     display: flex;
     z-index: 9;
+    width: 0;
+    height: 0;
   }
   .navbar .menu .show-btn {
     cursor: pointer;
@@ -121,6 +122,7 @@ html {
     display: none;
   }
   .navbar .menu.show {
+    width: 40%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
