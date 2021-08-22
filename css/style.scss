@@ -74,6 +74,7 @@ html {
     @media all and (max-width: 700px) {
         /* -> menu */
         .menu {
+            transition: 0.5s ease;
             position: fixed;
             top: $navbarHeight;
             right: 0;
@@ -81,7 +82,7 @@ html {
             display: flex;
             z-index: 9;
             width: 0;
-            height: 0;
+            height: 100%;
             .show-btn {
                 cursor: pointer;
                 position: fixed;
@@ -108,6 +109,7 @@ html {
                     width: 100%;
                     text-align: center;
                     border: solid 2px white;
+                    white-space: nowrap;
                 }
                 .blurry {
                     width: 100vw;
