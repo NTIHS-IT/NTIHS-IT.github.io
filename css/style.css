@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* var */
-body,
-html {
+
+body, html {
   background-color: #3e3d49;
   margin: 0;
   width: 100%;
@@ -10,6 +10,7 @@ html {
 }
 
 /* 導覽欄 */
+
 .navbar {
   width: 100%;
   height: 60px;
@@ -35,7 +36,7 @@ html {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }
 
 .navbar .logo #logo-text {
@@ -44,7 +45,7 @@ html {
   top: 50%;
   left: 50px;
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }
 
 .navbar .menu {
@@ -63,8 +64,8 @@ html {
   display: flex;
   color: #ffff;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 20px;
 }
 
@@ -72,18 +73,13 @@ html {
   opacity: 0.7;
 }
 
-.navbar .menu li a,
-.navbar .menu li .navButton {
+.navbar .menu li a, .navbar .menu li .navButton {
   margin: auto;
   text-decoration: none;
   font-family: "Times New Roman", sans-serif;
 }
 
-.navbar .menu li a:link, .navbar .menu li a:hover, .navbar .menu li a:visited, .navbar .menu li a:active,
-.navbar .menu li .navButton:link,
-.navbar .menu li .navButton:hover,
-.navbar .menu li .navButton:visited,
-.navbar .menu li .navButton:active {
+.navbar .menu li a:link, .navbar .menu li a:hover, .navbar .menu li a:visited, .navbar .menu li a:active, .navbar .menu li .navButton:link, .navbar .menu li .navButton:hover, .navbar .menu li .navButton:visited, .navbar .menu li .navButton:active {
   color: #ffff;
 }
 
@@ -97,8 +93,8 @@ html {
     right: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -124,8 +120,8 @@ html {
   .navbar .menu.show {
     width: 40%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 100%;
     background-color: #626262;
   }
@@ -161,12 +157,13 @@ section {
 }
 
 /* 狀態列以下 */
+
 #centerGroup {
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   float: center;
   padding: 5px;
   width: 306px;
@@ -175,11 +172,11 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #centerGroup #icons {
@@ -218,4 +215,5 @@ section {
   color: #ffffff;
   margin: 0 12px 12px;
 }
+
 /*# sourceMappingURL=style.css.map */
