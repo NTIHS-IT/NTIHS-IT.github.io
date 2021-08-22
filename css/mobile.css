@@ -1,7 +1,7 @@
-html{
+@charset "UTF-8";
+html {
     transition: all 1s;
 }
 
-@media screen and (min-width: 660px){
-    
+@media screen and (min-width: 660px) {
 }
