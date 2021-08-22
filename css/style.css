@@ -1,144 +1,151 @@
-body, html{
-    background-color: #3E3D49 ;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+@charset "UTF-8";
+body,
+html {
+  background-color: #3e3d49;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
 }
 
+/* 導覽欄 */
 .navbar {
-    width: 100%;
-    height: 60px;
-    background-color: #1E1F25;
-    text-align: left;
-    margin: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1e1f25;
+  text-align: left;
+  margin: 0;
+  /* logo */
+  /* menu */
 }
 
-section{
-    width: 100%;
-    height: auto;
+.navbar .logo {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin-left: 40px;
+  height: 60px;
+  color: #ffff;
+  font-size: 36px;
 }
 
-.logo{
-    position: relative;
-    float: left;
-    width: 200px;
-    margin-left: 40px;
-    height: 60px;
-    color: #ffff;
-    font-size: 36px;
+.navbar .logo img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
 
-.navIcon{
-    margin: 0;
-    padding: 4px;
-    height: 36px;
-    width: 36px;
-    float: left;
+.navbar .logo #logo-text {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
 
-#logoText{
-    font-size: 28px;
-    color: #FFFFFF;
-    margin: 0 12px 12px;
+.navbar .menu {
+  margin: 0;
+  height: 60px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.container{
-    width: 100%;
-    height: 48px;
-    margin: 0;
-    display: inline;
-    float: left;
-    border-color: red;
-    border-width: 3px;
-    padding: 5px;
-    border-style: solid;
+.navbar .menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
 }
 
-nav a {
-    color: inherit;
-    text-decoration: none;
+.navbar .menu li a,
+.navbar .menu li .navButton {
+  margin: auto;
+  text-decoration: none;
+  font-family: "Times New Roman", sans-serif;
+  /*ponnala*/
 }
 
-.navButton{
-    font-family: "Times New Roman", sans-serif;/*ponnala*/
+.navbar .menu li a:link, .navbar .menu li a:hover, .navbar .menu li a:visited, .navbar .menu li a:active,
+.navbar .menu li .navButton:link,
+.navbar .menu li .navButton:hover,
+.navbar .menu li .navButton:visited,
+.navbar .menu li .navButton:active {
+  color: #ffff;
+}
+
+.navbar .menu li:hover {
+  opacity: 0.7 !important;
+}
+
+section {
+  width: 100%;
+  height: auto;
 }
 
 /*狀態列以下*/
-
-#centerGroup{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    float: center;
-    padding: 5px;
-    width: 306px;
+#centerGroup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  float: center;
+  padding: 5px;
+  width: 306px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#icons{
-    padding: 6px;
-    display: inline-block;
+#centerGroup #icons {
+  padding: 6px;
+  display: inline-block;
 }
 
-#icons a {
-    height: 64px;
-    width: 64px;
-    display: inline-block;
+#centerGroup #icons a {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
 }
 
-.icon{
-    margin: auto;
-    height: 48px;
-    width: 48px;
-    float: center;
-    color: white;
-    padding: 8px;
+#centerGroup #icons a .icon {
+  margin: auto;
+  height: 48px;
+  width: 48px;
+  float: center;
+  color: white;
+  padding: 8px;
 }
 
-.menu {
-    margin: 0;
-    height: 60px;
-    padding: 0;
-    display: flex;
+#centerGroup #logoAndText {
+  float: center;
+  height: auto;
 }
 
-.menu li{
-    display: flex;
-    color: #ffff;
-    align-items: center;
-    margin: 0 20px;
+#centerGroup #logoAndText #logo {
+  display: block;
+  height: 256px;
+  margin: 0 auto;
 }
 
-.menu li a {
-    margin: auto;
-    text-decoration: none;
+#centerGroup #logoAndText #logoText {
+  font-size: 28px;
+  color: #ffffff;
+  margin: 0 12px 12px;
 }
-.menu li a:link, .menu li a:hover, .menu li a:visited, .menu li a:active {
-    color: #ffff;
-    
-}
-#logoAndText{
-    float: center;
-    height: auto;
-}
-
-#logo{
-    display: block;
-    height: 256px;
-    margin: 0 auto;
-}
-
-#logo-text {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50px;
-    transform: translate(0, -50%);
-}
-
-.logo img {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
+/*# sourceMappingURL=style.css.map */
