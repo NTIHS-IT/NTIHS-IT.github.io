@@ -177,7 +177,7 @@ section {
             display: inline-block;
             .icon {
                 margin: auto;
-                height: 48px;
+                height: auto;//bcz youtube icon shape
                 width: 48px;
                 float: center;
                 color: white;
