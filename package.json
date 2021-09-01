@@ -1,0 +1,26 @@
+{
+  "name": "ntihs-it.github.io",
+  "version": "1.0.0",
+  "description": "- [網頁](https://ntihs-it.github.io/html/index.html)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve .\\html\\index.html",
+    "build": "parcel build --public-url ./ ./html/index.html --dist-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTIHS-IT/NTIHS-IT.github.io.git"
+  },
+  "author": "NTIHS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NTIHS-IT/NTIHS-IT.github.io/issues"
+  },
+  "homepage": "https://github.com/NTIHS-IT/NTIHS-IT.github.io#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0"
+  }
+}
