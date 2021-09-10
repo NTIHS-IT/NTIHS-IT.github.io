@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Logo from './img/logo-white.a9c53c85.svg';
 import './sass/navbar.sass';
 
@@ -6,15 +7,15 @@ const Navbar = () => {
   return (
     <ul className="navbar">
       <li className="logo">
-        <a href="/">
+        <Link to="/">
           <img src={Logo} />
           <h1>NTIHS</h1>
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="./classList.html" target="_blank">
+        <Link to="/classList">
           課表
-        </a>
+        </Link>
       </li>
       <li>
         <a href="https://ntihs-it.github.io/NTIHS-Blog/" target="_blank" rel="noreferrer">
