@@ -34,20 +34,23 @@
     li
       margin: 0 20px
       height: 100%
-      color: #ffff
       -webkit-user-select: none
       -moz-user-select: none
       -o-user-select: none
       user-select: none
       a
+        &,
         &:link,
-        &:hover,
         &:visited,
         &:active
+          color: #cac9c9
+        &:hover
           color: #ffff
+        transition: all .4s
         text-decoration: none
         display: block
         height: 100%
+        width: 100%
         line-height: 60px
 .menu-button > *
   width: 0

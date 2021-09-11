@@ -3,13 +3,13 @@ import './link.sass';
 
 const Link: FC<{
   src: string,
-  title: string,
+  title?: string,
   click?: boolean,
   href?: string
 }> = ({src, title, click = false, href = ''}) => {
   return (
     click ? (
-      <a id="link" href={href}>
+      <a id="link" href={href} target="_blank" rel="noreferrer">
         <li className={`fab ${src}`}></li>
       </a>
     ) : (
@@ -17,10 +17,10 @@ const Link: FC<{
         id="link"
         className="copy"
         onClick={() => {
-          navigator.clipboard.writeText(title);
+          navigator.clipboard.writeText(String(title));
         }}
       >
-        <li className={`fab ${src}`}></li>
+        <li className={src}></li>
       </div>
     )
   );
