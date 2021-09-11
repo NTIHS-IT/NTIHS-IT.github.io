@@ -1,8 +1,9 @@
 import React from 'react';
+import './sass/classList.sass';
 
 const ClassList = () => {
   return (
-    <div>
+    <div className="class-list">
       還在寫啦
     </div>
   );
