@@ -10,6 +10,16 @@ const memberList = [
     position: '社長',
     githubName: 'Young-TW',
     github: 'https://github.com/Young-TW',
+    desc: '南工網頁社現任社長，南工大電神',
+  },
+  {
+    name: 'Rou',
+    discord: 'Rou#9999',
+    discordAvatar: 'https://cdn.discordapp.com/avatars/630764531307642903/427b405c4aebb01144260273a339aef7.webp?size=4096',
+    position: '公關',
+    githubName: 'Young-TW',
+    github: 'https://github.com/Young-TW',
+    desc: '南工網頁社現任公關，負責聊天的電神',
   },
 ];
 
@@ -23,6 +33,7 @@ const Member = () => {
             <div className="avatar">
               <img src={member.discordAvatar} />
             </div>
+            <p>{member.desc}</p>
             <div className="about">
               <Link
                 src="fa-discord"
@@ -35,8 +46,6 @@ const Member = () => {
                 click={true}
               />
             </div>
-
-
           </div>
         );
       })}
