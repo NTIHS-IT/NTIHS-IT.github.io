@@ -21,7 +21,6 @@ const Member = () => {
               />
               <Link
                 src="fab fa-github"
-                title={member.githubName}
                 href={member.github}
                 click={true}
               />
