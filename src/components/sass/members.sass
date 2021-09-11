@@ -1,0 +1,38 @@
+.members
+  display: flex
+  flex-wrap: wrap
+  padding: 100px
+  height: calc( 100% - 260px )
+
+.member
+  position: relative
+  width: 300px
+  height: 200px
+  background-color: #2b2a31
+  padding: 10px
+  border-radius: 10px
+  color: #ffff
+  top: 0
+  transition: all .5s
+
+  h2
+    margin: 0
+    text-align: center
+  
+  &:hover
+    box-shadow: rgb(0 0 0 / 30%) 0px 15px 25px
+    top: -5px
+.avatar
+  margin: 20px auto
+  width: 80px
+  height: 80px
+  border-radius: 50%
+  overflow: hidden
+  img
+    height: 100%
+    width: 100%s
+
+.about
+  text-align: center
+  // & > div
+  //   display: inline-flex !important

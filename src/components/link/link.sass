@@ -1,0 +1,48 @@
+#link
+  display: -webkit-box   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox  /* TWEENER - IE 10 */
+  display: -webkit-flex /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: inline-flex         /* NEW, Spec - Firefox, Chrome, Opera */
+  align-items: center
+  position: relative
+  margin: 0 10px
+  padding: 11px 10px
+  border-radius: 5px
+  color: #ffff
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  transition: all .5s
+  text-decoration: none
+  & > *
+    flex: auto
+  &:link, &:visited, &:active, &:hover
+    color: #ffff
+  li
+    &::before
+      font-size: 36px
+
+.copy
+  
+  &::after
+    content: "Copy to clipboard"
+    position: absolute
+    display: flex
+    transform: perspective(10px)
+    background-color: rgb(39, 45, 48)
+    color: #ffff
+    top: 0
+    left: 50%
+    padding: 0 8px
+    transform: translateX(-50%)
+    white-space: nowrap
+    height: 100%
+    justify-content: center
+    align-items: center
+    border-radius: 10px
+    z-index: -2
+    transition:  all .3s
+  &:hover:after
+    z-index: 1
+    top: -3rem

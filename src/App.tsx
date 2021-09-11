@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import ClassList from './components/classList';
+import Member from './components/members';
 import {
   HashRouter as Router,
   Switch,
@@ -18,6 +19,9 @@ const App = () => {
         </Route>
         <Route exact path="/classList">
           <ClassList />
+        </Route>
+        <Route exact path="/member">
+          <Member />
         </Route>
       </Switch>
     </Router>

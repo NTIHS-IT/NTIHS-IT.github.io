@@ -40,6 +40,11 @@ const Navbar = () => {
             匿名
           </a>
         </li>
+        <li>
+          <Link to="/member" onClick={closeMenu}>
+            社員
+          </Link>
+        </li>
       </ul>
       <div className="menu-button">
         <input type="checkbox" checked={menuSwitch} onClick={() => {
