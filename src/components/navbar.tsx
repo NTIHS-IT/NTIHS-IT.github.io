@@ -5,7 +5,9 @@ import './sass/navbar.sass';
 
 const Navbar = () => {
   const [menuSwitch, setMenuSwitch] = useState(false);
-
+  const closeMenu = () => {
+    setMenuSwitch(false);
+  };
   return (
     <div className="navbar">
       <div className="logo">
@@ -16,12 +18,16 @@ const Navbar = () => {
       </div>
       <ul className={menuSwitch ? 'open-menu menu' : 'menu'}>
         <li>
-          <Link to="/classList">
+          <Link to="/classList" onClick={closeMenu}>
             課表
           </Link>
         </li>
         <li>
-          <a href="https://ntihs-it.github.io/NTIHS-Blog/" target="_blank" rel="noreferrer">
+          <a
+            href="https://ntihs-it.github.io/NTIHS-Blog/"
+            target="_blank" rel="noreferrer"
+            onClick={closeMenu}
+          >
             Blog
           </a>
         </li>
@@ -29,6 +35,7 @@ const Navbar = () => {
           <a
             href="https://peing.net/en/ntihs112th"
             target="_blank" rel="noreferrer"
+            onClick={closeMenu}
           >
             匿名
           </a>
