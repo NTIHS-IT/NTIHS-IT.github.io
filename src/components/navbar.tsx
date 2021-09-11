@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <Link to="/">
+        <a href="/">
           <img src={Logo} />
           <h1>NTIHS</h1>
-        </Link>
+        </a>
       </div>
       <ul className={menuSwitch ? 'open-menu menu' : 'menu'}>
         <li>
