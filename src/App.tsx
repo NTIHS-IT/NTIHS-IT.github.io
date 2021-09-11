@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 import Home from './components/home';
 import ClassList from './components/classList';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
