@@ -12,6 +12,7 @@ const Home = () => {
         <a className="fab fa-facebook" href="https://www.facebook.com/103730941540184"></a>
         <a className="fab fa-instagram" href="https://www.instagram.com/ntihs.web/"></a>
         <a className="fab fa-youtube" href="https://www.youtube.com/channel/UCex1cjm-Z6WGP1O1CSNTVpw"></a>
+        <a className="fab fa-discord" href="https://discord.gg/wkdEkYAJsS"></a>
       </div>
     </div>
   );

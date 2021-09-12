@@ -8,7 +8,9 @@ body, html, #root {
   -moz-osx-font-smoothing: grayscale;
   background-color: #3e3d49;
   width: 100%;
-  /* height: 100%; */
+  scrollbar-width: 10px;
+  scrollbar-color: #2E3338;
+
 }
 
 code {
@@ -26,3 +28,4 @@ body::-webkit-scrollbar-thumb {
   background-color: #202225;
   border-radius: 20px;
 }
+

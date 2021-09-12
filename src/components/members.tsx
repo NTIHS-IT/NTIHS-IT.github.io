@@ -15,20 +15,32 @@ const Member = () => {
             </div>
             <p>{member.desc}</p>
             <div className="about">
-              <Link
-                src="fab fa-discord"
-                title={member.discord}
-              />
-              <Link
-                src="fab fa-github"
-                href={member.github}
-                click={true}
-              />
-              <Link
-                src="fas fa-rss"
-                href={member.blog}
-                click={true}
-              />
+              {
+                member.discord ? (
+                  <Link
+                    src="fab fa-discord"
+                    title={member.discord}
+                  />
+                ) : null
+              }
+              {
+                member.github ? (
+                  <Link
+                    src="fab fa-github"
+                    href={member.github}
+                    click={true}
+                  />
+                ) : null
+              }
+              {
+                member.blog ? (
+                  <Link
+                    src="fas fa-rss"
+                    href={member.blog}
+                    click={true}
+                  />
+                ) : null
+              }
             </div>
           </div>
         );
