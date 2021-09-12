@@ -14,6 +14,8 @@
   user-select: none
   transition: all .3s
   text-decoration: none
+  &:hover li::before
+    text-shadow: #ffffff59 0px 0px 15px
   & > *
     flex: auto
   &, &:link, &:visited, &:active
@@ -24,8 +26,7 @@
     &::before
       transition: all .3s
       font-size: 36px
-    &:hover::before
-      text-shadow: #ffffff59 0px 0px 15px
+
 
 .copy
   
