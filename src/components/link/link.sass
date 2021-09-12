@@ -12,7 +12,7 @@
   -moz-user-select: none
   -ms-user-select: none
   user-select: none
-  transition: all .5s
+  transition: all .3s
   text-decoration: none
   & > *
     flex: auto
@@ -22,7 +22,10 @@
     color: #ffff
   li
     &::before
+      transition: all .3s
       font-size: 36px
+    &:hover::before
+      text-shadow: #ffffff59 0px 0px 15px
 
 .copy
   
