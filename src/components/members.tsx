@@ -10,10 +10,10 @@ const Member = () => {
         return (
           <div key={member.name} className="member">
             <h2>{member.position}</h2>
-            <h3>{member.name}</h3>
             <div className="avatar">
               <img src={member.discordAvatar} alt="他被消失啦呀!!"/>
             </div>
+            <h3>{member.name}</h3>
             <p>{member.desc}</p>
             <About member={member} />
           </div>

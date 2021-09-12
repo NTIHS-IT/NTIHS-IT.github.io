@@ -5,8 +5,9 @@
     "discordAvatar": "https://cdn.discordapp.com/avatars/434364344424464385/896c5170ae059a6a08b30d77c7c4a843.webp?size=4096",
     "position": "社長",
     "github": "https://github.com/Young-TW",
-    "desc": "南工網頁社現任社長，南工大電神會Python, JavaScript",
-    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci1.html"
+    "desc": "南工網頁社現任社長，南工大電神會Python, JavaScript。",
+    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci1.html",
+    "ig": "https://www.instagram.com/_young_wang/"
   },
   {
     "name": "Rou",
@@ -14,8 +15,9 @@
     "discordAvatar": "https://cdn.discordapp.com/avatars/630764531307642903/427b405c4aebb01144260273a339aef7.webp?size=4096",
     "position": "公關",
     "github": "https://github.com/Rou-TW",
-    "desc": "南工網頁社現任公關，負責聊天的電神正在學習C++",
-    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci3.html"
+    "desc": "南工網頁社現任公關，負責聊天的電神正在學習C++。",
+    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci3.html",
+    "ig": "https://www.instagram.com/_rou_lin/"
   },
   {
     "name": "Zanzan",
@@ -23,8 +25,9 @@
     "discordAvatar": "https://cdn.discordapp.com/avatars/613729851500658688/8c29935edc08da83ee18886a1e29b3ed.webp?size=4096",
     "position": "總務兼公關",
     "github": "https://github.com/zanya945",
-    "desc": "南工網頁社現任總務，負責帶風向用Java電人",
-    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci4.html"
+    "desc": "南工網頁社現任總務，負責帶風向用Java電人。",
+    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci4.html",
+    "ig": "https://www.instagram.com/owo_music_game/"
   },
   {
     "name": "xiao xigua",
@@ -32,15 +35,16 @@
     "discordAvatar": "https://cdn.discordapp.com/avatars/458988300418416640/05549a0ef3b6c2d804214f8c8e2c40bd.webp?size=4096",
     "position": "副社長",
     "github": "https://github.com/xiaoxigua-1",
-    "desc": "南工網頁社現任副社，負責當渣渣啥都不會只能幫社團寫寫網頁",
-    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci2.html"
+    "desc": "南工網頁社現任副社，負責當渣渣啥都不會只能幫社團寫寫網頁。",
+    "blog": "https://ntihs-it.github.io/NTIHS-Blog/articles/ci2.html",
+    "ig": "https://www.instagram.com/xiaoxigua612/"
   },
   {
-    "name": "鄭富方",
+    "name": "小貢丸",
     "discord": "小貢丸#3623",
     "discordAvatar": "https://cdn.discordapp.com/avatars/471350230185672704/7c608bb013834e87a6c208f586577a3c.webp?size=4096",
     "position": "前任社長",
-    "desc": "南工網頁社前任社長，負責當南工吉祥物",
+    "desc": "南工網頁社前任社長，負責當南工吉祥物。",
     "fb": "https://www.facebook.com/david93518",
     "ig": "https://www.instagram.com/david93518/"
   }
