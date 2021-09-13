@@ -1,5 +1,6 @@
 import React from 'react';
 import cooperates from './data/cooperate';
+import Tilt from 'react-parallax-tilt';
 import Links from './links/links';
 import './sass/cooperates.sass';
 
@@ -8,7 +9,7 @@ const Cooperates = () => {
     <div className="cooperates">
       {cooperates.map((cooperate) => {
         return (
-          <div key={cooperate.name} className="cooperate">
+          <Tilt key={cooperate.name} className="cooperate">
             <img src={cooperate.avatar} className="cooperate-avatar"/>
             <div className="content">
               <h2>{cooperate.name}</h2>
@@ -19,7 +20,7 @@ const Cooperates = () => {
                 blog={cooperate.blog}
               />
             </div>
-          </div>
+          </Tilt>
         );
       })}
     </div>
