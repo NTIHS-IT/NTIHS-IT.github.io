@@ -1,5 +1,6 @@
 import React from 'react';
 import cooperates from './data/cooperate';
+import Links from './links/links';
 import './sass/cooperates.sass';
 
 const Cooperates = () => {
@@ -11,7 +12,12 @@ const Cooperates = () => {
             <img src={cooperate.avatar} className="cooperate-avatar"/>
             <div className="content">
               <h2>{cooperate.name}</h2>
-              <div className="links"></div>
+              <Links
+                website={cooperate.website}
+                ig={cooperate.ig}
+                fb={cooperate.fb}
+                blog={cooperate.blog}
+              />
             </div>
           </div>
         );
