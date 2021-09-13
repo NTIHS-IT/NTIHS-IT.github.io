@@ -8,11 +8,11 @@ const Cooperates = () => {
       {cooperates.map((cooperate) => {
         return (
           <div key={cooperate.name} className="cooperate">
-            <div className="cooperate-avatar">
-              <img src={cooperate.avatar} />
+            <img src={cooperate.avatar} className="cooperate-avatar"/>
+            <div className="content">
+              <h2>{cooperate.name}</h2>
+              <div className="links"></div>
             </div>
-            <h2>{cooperate.name}</h2>
-            <div className="links"></div>
           </div>
         );
       })}
