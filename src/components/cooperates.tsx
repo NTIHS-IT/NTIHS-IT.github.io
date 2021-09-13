@@ -14,6 +14,7 @@ const Cooperates = () => {
             className="cooperate"
             glareEnable={true}
             glareMaxOpacity={1}
+            glareBorderRadius={'6px'}
           >
             <img src={cooperate.avatar} className="cooperate-avatar"/>
             <div className="content">
