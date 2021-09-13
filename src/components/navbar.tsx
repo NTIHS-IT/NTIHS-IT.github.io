@@ -23,6 +23,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to="/member" onClick={closeMenu}>
+            幹部
+          </Link>
+        </li>
+        <li>
+          <Link to="/cooperate" onClick={closeMenu}>
+            合作
+          </Link>
+        </li>
+        <li>
           <a
             href="https://ntihs-it.github.io/NTIHS-Blog/"
             target="_blank" rel="noreferrer"
@@ -39,11 +49,6 @@ const Navbar = () => {
           >
             匿名
           </a>
-        </li>
-        <li>
-          <Link to="/member" onClick={closeMenu}>
-            幹部
-          </Link>
         </li>
       </ul>
       <div className="menu-button">
