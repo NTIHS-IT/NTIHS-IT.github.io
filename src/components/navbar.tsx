@@ -54,7 +54,6 @@ const Navbar = () => {
       <div className="menu-button">
         <input type="checkbox" checked={menuSwitch} onClick={() => {
           setMenuSwitch(!menuSwitch);
-          console.log(menuSwitch);
         }}/>
         <div></div>
       </div>

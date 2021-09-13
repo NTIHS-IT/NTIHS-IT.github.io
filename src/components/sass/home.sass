@@ -1,20 +1,25 @@
 @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css')
 
 .home
-  position: absolute
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -50%)
-  img
-    -webkit-user-select: none
-    -moz-user-select: none
-    -o-user-select: none
-    user-select: none
-    height: 256px
-  text-align: center
-  font-size: 28px
-  color: #ffff
-  white-space: nowrap
+  width: 100%
+  height: calc( 100vh - 60px )
+  display: flex
+  align-items: center
+  justify-content: center
+  .content
+    img
+      -webkit-user-select: none
+      -moz-user-select: none
+      -o-user-select: none
+      user-select: none
+      height: 256px
+    text-align: center
+    font-size: 28px
+    color: #ffff
+    white-space: nowrap
+    @media screen and ( max-height: 450px )
+      margin-top: 100px
+      
 
 .icons
   display: flex
