@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/member" onClick={closeMenu}>
-            社員
+            幹部
           </Link>
         </li>
       </ul>
