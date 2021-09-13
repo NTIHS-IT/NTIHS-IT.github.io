@@ -9,7 +9,12 @@ const Cooperates = () => {
     <div className="cooperates">
       {cooperates.map((cooperate) => {
         return (
-          <Tilt key={cooperate.name} className="cooperate">
+          <Tilt
+            key={cooperate.name}
+            className="cooperate"
+            glareEnable={true}
+            glareMaxOpacity={1}
+          >
             <img src={cooperate.avatar} className="cooperate-avatar"/>
             <div className="content">
               <h2>{cooperate.name}</h2>
