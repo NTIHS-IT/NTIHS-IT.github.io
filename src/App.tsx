@@ -3,6 +3,7 @@ import Navbar from './components/navbar';
 import Home from './components/home';
 import ClassList from './components/classList';
 import Member from './components/members';
+import Cooperates from './components/cooperates';
 import {
   HashRouter as Router,
   Switch,
@@ -22,6 +23,9 @@ const App = () => {
         </Route>
         <Route exact path="/member">
           <Member />
+        </Route>
+        <Route exact path="/cooperate">
+          <Cooperates />
         </Route>
       </Switch>
     </Router>
