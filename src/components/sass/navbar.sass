@@ -89,12 +89,14 @@
       margin: 0
       z-index: 10000
       opacity: 0
+      &:checked + div
+        position: fixed
     div
       opacity: 1
       &, &::after, &::before
         content: ''
         position: absolute
-        width: 100%
+        width: 30px
         height: 3px
         background-color: #ffff
         color: #ffff
