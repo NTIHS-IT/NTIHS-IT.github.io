@@ -13,6 +13,22 @@ import fgisc from './img/fgisc.jpg';
 import infor from './img/infor.jpg';
 import hgisc from './img/hgisc.jpg';
 import HCCR from './img/HCCR.jpg';
+import zsisc from './img/zsisc.jpg';
+import chisc from './img/chisc.jpg';
+import cnmc from './img/cnmc.jpg';
+import ckcsc from './img/ckcsc.jpg';
+import pcic from './img/pcic.jpg';
+import tcirc from './img/tcirc.jpg';
+import tcssh from './img/tcssh.jpg';
+import whcsc from './img/whcsc.jpg';
+import lssh from './img/lssh.jpg';
+import cmcoc from './img/cmcoc.jpg';
+import lmsh from './img/lmsh.jpg';
+import nlir from './img/nlir.jpg';
+import zlcsc from './img/zlcsc.jpg';
+import ypic from './img/ypic.jpg';
+import ypis from './img/ypis.jpg';
+import pths from './img/pths.jpg';
 import FHCRC from './img/FHCRC.jpg';
 
 const data = [
@@ -103,6 +119,91 @@ const data = [
     'fb': 'https://www.facebook.com/HCCR.edu/',
     'avatar': HCCR,
     'website': 'https://sites.google.com/view/khcrhc?fbclid=IwAR1SqQIbNxg4gSceb3lFiuPlnjEIBA1IEukrbx72Yn2Cfj5v1ogU9L1bfjo',
+  },
+  {
+    'name': '中山女高資研',
+    'ig': 'https://www.instagram.com/zsisc28th/',
+    'avatar': zsisc,
+  },
+  {
+    'name': '中和資研',
+    'ig': 'https://www.instagram.com/chisc.chshs/',
+    'website': 'https://www.chisc.club',
+    'avatar': chisc,
+  },
+  {
+    'name': '師大附中網管',
+    'ig': 'https://www.instagram.com/hsnucnmc/',
+    'avatar': cnmc,
+  },
+  {
+    'name': '成功電研',
+    'ig': 'https://www.instagram.com/ckcsc34th_diary/',
+    'avatar': ckcsc,
+  },
+  {
+    'name': '板橋資訊',
+    'ig': 'https://www.instagram.com/pcic33rd/',
+    'website': 'https://pcic33.910452.repl.co',
+    'avatar': pcic,
+  },
+  {
+    'name': '中一中資研',
+    'ig': 'https://www.instagram.com/tcirc_39th/',
+    'website': 'https://tcirc.tw',
+    'avatar': tcirc,
+  },
+  {
+    'name': '中二中電研',
+    'ig': 'https://www.instagram.com/tcssh_csc/',
+    'fb': 'https://www.facebook.com/csc241',
+    'avatar': tcssh,
+  },
+  {
+    'name': '文華電研',
+    'ig': 'https://www.instagram.com/whcsc29th/',
+    'website': whcsc,
+  },
+  {
+    'name': '麗山星創電研',
+    'ig': 'https://www.instagram.com/lssh_lscsc/',
+    'avatar': lssh,
+  },
+  {
+    'name': '景美電資',
+    'ig': 'https://www.instagram.com/cmioc_28th',
+    'avatar': cmcoc,
+  },
+  {
+    'name': '黎明程研',
+    'ig': 'https://www.instagram.com/lmshlmcps4th/',
+    'website': 'https://sites.google.com/view/lmcps/',
+    'avatar': lmsh,
+  },
+  {
+    'name': '內高資研',
+    'ig': 'https://www.instagram.com/nlir4th/',
+    'avatar': nlir,
+  },
+  {
+    'name': '中崙資研',
+    'ig': 'https://www.instagram.com/zlcsc_19th/',
+    'avatar': zlcsc,
+  },
+  {
+    'name': '永平資訊',
+    'ig': 'https://www.instagram.com/ypic.2nd/',
+    'avatar': ypic,
+  },
+  {
+    'name': '延平資研',
+    'ig': 'https://www.instagram.com/ypis_26/',
+    'avatar': ypis,
+  },
+  {
+    'name': '屏東資研',
+    'ig': 'https://www.instagram.com/pths_csc/',
+    'avatar': pths,
   },
   {
     'name': '鳳新電資',
