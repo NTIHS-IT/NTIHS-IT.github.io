@@ -162,7 +162,8 @@ const data = [
   {
     'name': '文華電研',
     'ig': 'https://www.instagram.com/whcsc29th/',
-    'website': whcsc,
+    'website': 'https://whcsc.github.io',
+    'avatar': whcsc,
   },
   {
     'name': '麗山星創電研',
