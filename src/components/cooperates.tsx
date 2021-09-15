@@ -9,7 +9,7 @@ const Cooperates = () => {
   return (
     <div className="cooperates">
       <div className='title'>
-        {'組織'}
+        組織
       </div>
       {cooperates.map((cooperate) => {
         return (
@@ -34,7 +34,7 @@ const Cooperates = () => {
         );
       })}
       <div className='title'>
-        {'人物'}
+        人物
       </div>
       {cooperatesPeople.map((cooperatePeople) => {
         return (
