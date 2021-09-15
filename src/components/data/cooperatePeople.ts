@@ -12,7 +12,7 @@ const data = [
   },
   {
     'name': '猴子',
-    // 'ig': '',
+    'ig': 'https://www.instagram.com/hc52010/',
     'avatar': monkey,
     'website': 'https://a3510377.github.io',
     'fb': 'https://www.facebook.com/profile.php?id=100028122045493',
