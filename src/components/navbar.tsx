@@ -18,6 +18,11 @@ const Navbar = () => {
       </div>
       <ul className={menuSwitch ? 'open-menu menu' : 'menu'}>
         <li>
+          <Link to="/" onClick={closeMenu}>
+            主頁
+          </Link>
+        </li>
+        <li>
           <Link to="/classList" onClick={closeMenu}>
             課表
           </Link>
