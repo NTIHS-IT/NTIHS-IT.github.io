@@ -1,5 +1,5 @@
 import scist from './img/scist.png';
-import ais3 from './img/ais3.png';
+import ais3 from './img/AIS3.png';
 
 const data = [
   {
