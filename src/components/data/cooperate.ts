@@ -1,4 +1,3 @@
-import scist from './img/scist.png';
 import itrc from './img/itrc.jpg';
 import kspgc from './img/kspgc.jpg';
 import tngs from './img/tngs.jpg';
@@ -32,14 +31,6 @@ import pths from './img/pths.jpg';
 import FHCRC from './img/FHCRC.jpg';
 
 const data = [
-  {
-    'name': 'SCIST',
-    'ig': 'https://www.instagram.com/fgisc35th/',
-    'avatar': scist,
-    'website': 'https://scist.org/',
-    'fb': 'https://www.facebook.com/scist.tw',
-    'blog': 'https://scist.org/blog',
-  },
   {
     'name': '雄女資研',
     'ig': 'https://www.instagram.com/kghs_i2trc2/',
