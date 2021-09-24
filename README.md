@@ -1,6 +1,6 @@
 # NTIHS-Web
-社長寫的官網
-- [網頁](https://ntihs-it.github.io/)
+
+- [台南高工網頁設計社 官方網站](https://ntihs-it.github.io/)
 
 - [設計圖 from figma](https://www.figma.com/file/ELUhI46z9ZPFqXKTXZSj1Y/)
 
