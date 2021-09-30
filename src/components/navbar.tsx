@@ -38,9 +38,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/blog" onClick={closeMenu}>
+          <a
+            href="https://ntihs-it.github.io/NTIHS-Blog/"
+            target="_blank" rel="noreferrer"
+            onClick={closeMenu}
+          >
             Blog
-          </Link>
+          </a>
         </li>
         <li>
           <a
