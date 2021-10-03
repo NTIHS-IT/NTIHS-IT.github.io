@@ -1,6 +1,7 @@
 import kane from './img/kane.jpg';
 import monkey from './img/monkey.png';
 import tico from './img/tico.jpeg';
+import sf from './img/sf.jpg';
 
 const data = [
   {
@@ -26,6 +27,14 @@ const data = [
     'website': 'https://yangjerry.tw',
     'fb': 'https://www.facebook.com/tico88612',
     'blog': 'https://blog.yangjerry.tw',
+  },
+  {
+    'name': '淺羽星夜',
+    'ig': 'https://www.instagram.com/shallowfeather/',
+    'avatar': sf,
+    // 'website': '',
+    'fb': 'https://www.facebook.com/profile.php?id=100004071128714',
+    // 'blog': '',
   },
 ];
 
